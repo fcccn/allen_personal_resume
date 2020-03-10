@@ -1,14 +1,11 @@
 # allen_personal_resume
 个人简历，技术栈vue
 
-> A Vue.js project
-
 ## Build Setup
 
 ```
 项目名称：Allen 个人简历
 版本：1.0.1
-
 ```
 
 ```
