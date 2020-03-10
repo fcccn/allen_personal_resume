@@ -32,7 +32,7 @@ module.exports = {
       host : "49.232.45.250",
       ref  : "origin/production",
       repo : "git@github.com:fcccn/react_node_blog.git",
-      path : "/data/allen_personal_resume",
+      path : "/data",
       ssh_options: ["StrictHostKeyChecking=no", "PasswordAuthentication=no"],
       "post-deploy" : "cnpm install && NODE_ENV=production cnpm run build",
       env  : {
@@ -44,7 +44,7 @@ module.exports = {
       host : "49.232.45.250",
       ref  : "origin/dev",
       repo : "git@github.com:fcccn/react_node_blog.git",
-      path : "/data/allen_personal_resume",
+      path : "/data",
       ssh_options: ["StrictHostKeyChecking=no", "PasswordAuthentication=no"],
       "post-deploy" : "cnpm icdnstall && NODE_ENV=staging cnpm run build",
       env  : {
@@ -56,7 +56,7 @@ module.exports = {
       host : "49.232.45.250",
       ref  : "origin/dev",
       repo : "git@github.com:fcccn/react_node_blog.git",
-      path : "/data/allen_personal_resume",
+      path : "/data",
       ssh_options: ["StrictHostKeyChecking=no", "PasswordAuthentication=no"],
       // "post-deploy" : "cnpm install && NODE_ENV=staging cnpm run build && pm2 startOrRestart ecosystem.config.js server.js --name youka_search",
       "post-deploy" : "cnpm install && NODE_ENV=staging cnpm run build",
