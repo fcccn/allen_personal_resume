@@ -1,7 +1,5 @@
 # allen_personal_resume
-<<<<<<< HEAD
 个人简历，技术栈vue
-=======
 
 > A Vue.js project
 
